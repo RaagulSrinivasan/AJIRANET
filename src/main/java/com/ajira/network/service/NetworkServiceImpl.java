@@ -24,8 +24,8 @@ import com.ajira.network.model.Nodes;
 public class NetworkServiceImpl implements NetworkService {
 
 	//Persistance for devices
-	private static List<Device> devices = new ArrayList<>();
-	private static List<Nodes> activeNodes = new ArrayList<>();
+	public static List<Device> devices = new ArrayList<>();
+	public static List<Nodes> activeNodes = new ArrayList<>();
 
 	@Override
 	public String addDevice(DeviceRequest deviceRequest) throws ValidationException {
@@ -265,7 +265,7 @@ public class NetworkServiceImpl implements NetworkService {
 		}
 		
 
-		return joiner.toString();
+		return "Route is "+joiner.toString();
 	}
 }
 
