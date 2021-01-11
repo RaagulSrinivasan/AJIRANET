@@ -7,7 +7,7 @@
 * Execute gradle build
 * To exclude test files, execute gradle build -x test
 * Once the build is successful, run the application using gradle bootRun
-* Once the application is up and running, Execute the various test requests available in testcases.md
+* Once the application is up and running, Execute the various test requests available in Testcases.md
 
 ### Reference Documentation
 For further reference, please consider the following sections:
